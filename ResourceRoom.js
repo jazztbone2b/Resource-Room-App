@@ -206,77 +206,107 @@ function alertSound(){
 	var audio = document.querySelector('#notification');
 	//Monday
 	if (day == 'Monday' && h == 08 && m == 54){
-		alert('Giselle and Valentina');
+		audio.play();
+		//alert('Giselle and Valentina <br> Please click OK to continue.');
 	} else if (day == 'Monday' && h == 09 && m == 24 && s == 00){
-		alert('Giselle and Jessica');
+		audio.play();
+		//alert('Giselle and Jessica <br> Please click OK to continue.');
 	} else if (day == 'Monday' && h == 09 && m == 54 && s == 00){
-		alert('Giselle, Raul, and Jessica');
+		audio.play();
+		//alert('Giselle, Raul, and Jessica <br> Please click OK to continue.');
 	} else if (day == 'Monday' && h == 12 && m == 39 && s == 00){
-		alert('Giselle, Jessica and Valentina');
+		audio.play();
+		//alert('Giselle, Jessica and Valentina <br> Please click OK to continue.');
 	} else if (day == 'Monday' && h == 13 && m == 39 && s == 00){
-		alert('Giselle and Jessica');
+		audio.play();
+		//alert('Giselle and Jessica <br> Please click OK to continue.');
 
 	//Tuesday
 	} else if (day == 'Tuesday' && h == 08 && m == 54 && s == 00){
-		alert('Giselle, Jessica, Valentina, and Raul');
+		audio.play();
+		//alert('Giselle, Jessica, Valentina, and Raul <br> Please click OK to continue.');
 	} else if (day == 'Tuesday' && h == 09 && m == 24 && s == 00){
-		alert('Giselle and Jessica');
+		audio.play();
+		//alert('Giselle and Jessica <br> Please click OK to continue.');
 	} else if (day == 'Tuesday' && h == 12 && m == 39 && s == 00){
-		alert('Valentina, and Raul');
+		audio.play();
+		//alert('Valentina, and Raul <br> Please click OK to continue.');
 	} else if (day == 'Tuesday' && h == 13 && m == 09 && s == 00){
-		alert('Giselle, Valentina, and Raul');
+		audio.play();
+		//alert('Giselle, Valentina, and Raul <br> Please click OK to continue.');
 	} else if (day == 'Tuesday' && h == 13 && m == 39 && s == 00){
-		alert('Giselle and Raul');
+		audio.play();
+		//alert('Giselle and Raul <br> Please click OK to continue.');
 	} else if (day == 'Tuesday' && h == 14 && m == 09 && s == 00){
-		alert('Giselle, Jessica, and Valentina');
+		audio.play();
+		//alert('Giselle, Jessica, and Valentina <br> Please click OK to continue.');
+
 	//Wednesday
 	} else if (day == 'Wednesday' && h == 08 && m == 54 && s == 00){
-		alert('Giselle, Jessica, and Valentina');
+		audio.play();
+		//alert('Giselle, Jessica, and Valentina <br> Please click OK to continue.');
 	} else if (day == 'Wednesday' && h == 09 && m == 24 && s == 00){
-		alert('Giselle and Jessica');
+		audio.play();
+		//alert('Giselle and Jessica <br> Please click OK to continue.');
 	} else if (day == 'Wednesday' && h == 09 && m == 54 && s == 00){
-		alert('Giselle and Raul');
+		audio.play();
+		//alert('Giselle and Raul <br> Please click OK to continue.');
 	} else if (day == 'Wednesday' && h == 10 && m == 24 && s == 00){
-		alert('Raul');
+		audio.play();
+		//alert('Raul <br> Please click OK to continue.');
 	} else if (day == 'Wednesday' && h == 12 && m == 39 && s == 00){
-		alert('Giselle, and Valentina');
+		audio.play();
+		//alert('Giselle, and Valentina <br> Please click OK to continue.');
 	} else if (day == 'Wednesday' && h == 13 && m == 09 && s == 00){
-		alert('Giselle, Jessica, Valentina, and Raul');
+		audio.play();
+		//alert('Giselle, Jessica, Valentina, and Raul <br> Please click OK to continue.');
 	} else if (day == 'Wednesday' && h == 13 && m == 39 && s == 00){
-		alert('Valentina');
+		audio.play();
+		//alert('Valentina <br> Please click OK to continue.');
 
 	//Thursday
 	} else if (day == 'Thursday' && h == 08 && m == 54 && s == 00){
-		alert('Giselle, Jessica, and Valentina');
+		audio.play();
+		//alert('Giselle, Jessica, and Valentina <br> Please click OK to continue.');
 	} else if (day == 'Thursday' && h == 09 && m == 24 && s == 00){
-		alert('Giselle and Jessica');
+		audio.play();
+		//alert('Giselle and Jessica <br> Please click OK to continue.');
 	} else if (day == 'Thursday' && h == 09 && m == 54 && s == 00){
-		alert('Raul');
+		audio.play();
+		//alert('Raul <br> Please click OK to continue.');
 	} else if (day == 'Thursday' && h == 10 && m == 24 && s == 00){
-		alert('Raul');
+		audio.play();
+		//alert('Raul <br> Please click OK to continue.');
 	} else if (day == 'Thursday' && h == 12 && m == 39 && s == 00){
-		alert('Giselle, Valentina, and Raul');
+		audio.play();
+		//alert('Giselle, Valentina, and Raul <br> Please click OK to continue.');
 	} else if (day == 'Thursday' && h == 13 && m == 09 && s == 00){
-		alert('Giselle, Jessica, Valentina, and Raul');
+		audio.play();
+		//alert('Giselle, Jessica, Valentina, and Raul <br> Please click OK to continue.');
 	} else if (day == 'Thursday' && h == 13 && m == 39 && s == 00){
-		alert('Valentina');
+		audio.play();
+		//alert('Valentina <br> Please click OK to continue.');
 
 	//Friday
 	} else if (day == 'Friday' && h == 08 && m == 54 && s == 00){
-		alert('Giselle, Jessica, and Valentina');
-	} else if (day == 'Friday' && h == 09 && m == 24 && s == 00){
-		alert('Giselle and Jessica');
-	} else if (day == 'Friday' && h == 09 && m == 54 && s == 00){
-		alert('Giselle and Raul');
-	} else if (day == 'Friday' && h == 10 && m == 24 && s == 00){
-		alert('Raul and Valentina');
-	} else if (day == 'Friday' && h == 13 && m == 09 && s == 00){
-		alert('Jessica, Valentina, and Raul');
-	} else if (day == 'Friday' && h == 13 && m == 39 && s == 00){
-		alert('Valentina');
-	} else if (day == 'Sunday' && h == 16 && m == 00 && s == 00 || h == 16 && m == 05 & s == 00){
 		audio.play();
-	}
+		//alert('Giselle, Jessica, and Valentina <br> Please click OK to continue.');
+	} else if (day == 'Friday' && h == 09 && m == 24 && s == 00){
+		audio.play();
+		//alert('Giselle and Jessica <br> Please click OK to continue.');
+	} else if (day == 'Friday' && h == 09 && m == 54 && s == 00){
+		audio.play();
+		//alert('Giselle and Raul <br> Please click OK to continue.');
+	} else if (day == 'Friday' && h == 10 && m == 24 && s == 00){
+		audio.play();
+		//alert('Raul and Valentina <br> Please click OK to continue.');
+	} else if (day == 'Friday' && h == 13 && m == 09 && s == 00){
+		audio.play();
+		//alert('Jessica, Valentina, and Raul <br> Please click OK to continue.');
+	} else if (day == 'Friday' && h == 13 && m == 39 && s == 00){
+		audio.play();
+		//alert('Valentina <br> Please click to OK continue.');
+	} 
 }
 
 function calendar(){
@@ -296,3 +326,4 @@ function calendar(){
 }
 
 window.onload = startTime(), calendar(), alertSound();
+
