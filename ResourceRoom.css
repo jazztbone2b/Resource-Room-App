@@ -1,0 +1,57 @@
+body{
+	background-color: #00838f; 
+	font-family: 'Indie Flower', cursive;
+	font-size: 32px;
+}
+h3{
+	color: white;
+}
+#day{
+	text-align: center;
+	margin-top: -35px;
+	color: white;
+}
+#time{
+	text-align: center;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+}
+#schedule, .calendar{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	border-radius: 30px;
+	height: auto;
+	width: 500px;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(242, 249, 243, 0.3);
+}
+
+#monday, #tuesday, #wednesday, #thursday, #friday{
+	display: none;
+	margin-top: 10px;
+	padding-top: -50px;
+}
+#times{
+	text-align: left;
+	font-size: 26px;
+	margin-top: -25px;
+}
+h4{
+	border-bottom: 1px solid black;
+	margin-top: 0px;
+}
+
+li{
+	list-style: none;
+}
+@media only screen and (max-width: 480px){
+	#schedule, .calendar{
+		width: 350px;
+	}
+}
