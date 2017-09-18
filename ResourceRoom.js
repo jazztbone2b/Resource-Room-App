@@ -32,9 +32,8 @@ function startTime(){
 	//change background color when a new group of kids goes
 	
 	//catch all statements to get when school is not in session
-	if (day == 'Monday' || day == 'Tuesday' || day == 'Wednesday' || day == 'Thursday' || day == 'Friday' && h >= 15){
-		document.querySelector('#schedule').innerHTML = 'No one needs to go at this time. Have a great day!';
-	} else if (day == 'Saturday' || day == 'Sunday'){
+	
+	if (day == 'Saturday' || day == 'Sunday'){
 		document.querySelector('#schedule').innerHTML = 'Have a great weekend!';
 		newColor.style.background = colors[12];
 
