@@ -180,6 +180,9 @@ function startTime(){
 	} else if (day == 'Friday' && h == 13 && m >= 39 && m < 59){
 		document.querySelector('#schedule').innerHTML = '<li>1:40pm: Valentina should already be there.</li>';
 		newColor.style.background = colors[16];
+	} else if (day == 'Monday' && h == 16 && m == 15 && s == 00 || h == 16 && m == 20 && s == 00 ||
+		  h == 16 && m == 22 && s == 00 || h == 16 && m == 25 && s == 00){
+		document.querySelector('#schedule').innerHTML = 'test is working!!!'
 	} else {
 		document.querySelector('#schedule').innerHTML = 'No one needs to go at this time.';
 		newColor.style.background = colors[5];
@@ -204,7 +207,7 @@ function alertSound(){
 
 	var audio = document.querySelector('#notification');
 	//Monday
-	if (day == 'Monday' && h == 08 && m == 54){
+	if (day == 'Monday' && h == 08 && m == 54 && s == 00){
 		audio.play();
 		//alert('Giselle and Valentina <br> Please click OK to continue.');
 	} else if (day == 'Monday' && h == 09 && m == 24 && s == 00){
@@ -305,7 +308,10 @@ function alertSound(){
 	} else if (day == 'Friday' && h == 13 && m == 39 && s == 00){
 		audio.play();
 		//alert('Valentina <br> Please click to OK continue.');
-	} 
+	} else if (day == 'Monday' && h == 16 && m == 15 && s == 00 || h == 16 && m == 20 && s == 00 ||
+		  h == 16 && m == 22 && s == 00 || h == 16 && m == 25 && s == 00){
+		audio.play();
+	}
 }
 
 function calendar(){
