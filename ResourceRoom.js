@@ -205,7 +205,7 @@ function alertSound(){
 
 	var audio = document.querySelector('#notification');
 	//Monday
-	if (day == 'Monday' && h == 08 && m == 54){
+	if (day == 'Monday' && h == 08 && m == 54 && s == 00){
 		audio.play();
 		//alert('Giselle and Valentina <br> Please click OK to continue.');
 	} else if (day == 'Monday' && h == 09 && m == 24 && s == 00){
