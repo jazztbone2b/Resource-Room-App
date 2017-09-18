@@ -306,8 +306,6 @@ function alertSound(){
 	} else if (day == 'Friday' && h == 13 && m == 39 && s == 00){
 		audio.play();
 		//alert('Valentina <br> Please click to OK continue.');
-	} else if (day == 'Monday'){
-		audio.play();
 	}
 }
 
