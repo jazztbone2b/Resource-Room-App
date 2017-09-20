@@ -37,10 +37,10 @@ function startTime(){
 		newColor.style.background = colors[12];
 
 	//MONDAY
-	} else if (day == 'Monday' && h == 08 && m < 54){
+	} else if (day == 'Monday' && h == 08 && m < 50){
 		document.querySelector('#schedule').innerHTML = 'Giselle and Valentina go at 8:55am';
 		newColor.style.background = colors[24]
-	} else if (day == 'Monday' && h == 08 && m >= 54 || day == 'Monday' && h == 09 && m < 24){
+	} else if (day == 'Monday' && h == 08 && m >= 50 || day == 'Monday' && h == 09 && m < 24){
 		document.querySelector('#schedule').innerHTML = '<li>8:55am: Giselle and Valentina, time to go!</li>' + '<br>' + 
 		'<li>Up Next: Giselle and <b>Jessica</b> at 9:25am</li>';
 		newColor.style.background = colors[0];
@@ -61,10 +61,10 @@ function startTime(){
 		newColor.style.background = colors[4];
 
 	//TUESDAY
-	} else if (day == 'Tuesday' && h == 08 && m < 54){
+	} else if (day == 'Tuesday' && h == 08 && m < 50){
 		document.querySelector('#schedule').innerHTML = 'Giselle, Jessica, Valentina, and Raul go at 8:55am';
 		newColor.style.background = colors[5];
-	} else if (day == 'Tuesday' && h == 08 && m >= 54 || day == 'Tuesday' && h == 09 && m < 24){
+	} else if (day == 'Tuesday' && h == 08 && m >= 50 || day == 'Tuesday' && h == 09 && m < 24){
 		document.querySelector('#schedule').innerHTML = '<li>8:55am: Giselle, Jessica, Valentina, and Raul time to go!</li>' + '<br>' + 
 		'<li>Up Next: Giselle and Jessica at 9:25am</li>';
 		newColor.style.background = colors[6];
@@ -89,42 +89,42 @@ function startTime(){
 		newColor.style.background = colors[10];
 
 	//Wednesday
-	} else if (day == 'Wednesday' && h == 08 && m < 54){
+	} else if (day == 'Wednesday' && h == 08 && m < 50){
 		document.querySelector('#schedule').innerHTML = 'Giselle, Jessica, and Valentina go at 8:55am';
 		newColor.style.background = colors[11];
-	} else if (day == 'Wendesday' && h == 08 && m >= 54 || day == 'Wednesday' && h == 09 && m < 24){
+	} else if (day == 'Wednesday' && h == 08 && m >= 50 || day == 'Wednesday' && h == 09 && m < 24){
 		document.querySelector('#schedule').innerHTML = '<li>8:55am: Giselle, Jessica, and Valentina time to go!</li>' + '<br>' + 
 		'<li>Up Next: Giselle and Jessica at 9:25am</li>';
 		newColor.style.background = colors[12];
-	} else if (day == 'Wendesday' && h == 09 && m >= 24 && m < 54){
+	} else if (day == 'Wednesday' && h == 09 && m >= 24 && m < 54){
 		document.querySelector('#schedule').innerHTML = '<li>9:25am: Giselle and Jessica should already be there.</li>' + '<br>' + 
 		'<li>Up Next: Giselle and <b>Raul</b> at 9:55am</li>';
 		newColor.style.background = colors[13];
-	} else if (day == 'Wendesday' && h == 09 && m >= 54 || day == 'Wednesday' && h == 10 && m < 24){
+	} else if (day == 'Wednesday' && h == 09 && m >= 54 || day == 'Wednesday' && h == 10 && m < 24){
 		document.querySelector('#schedule').innerHTML = '<li>9:55am: Giselle and <b>Raul</b> time to go!</li>' + '<br>' + 
 		'<li>Up Next: Raul at 10:25am</li>';
 		newColor.style.background = colors[14];
-	} else if (day == 'Wendesday' && h == 10 && m >= 24 && m < 59){
+	} else if (day == 'Wednesday' && h == 10 && m >= 24 && m < 59){
 		document.querySelector('#schedule').innerHTML = '<li>10:25am: Raul should already be there.</li>' + '<br>' + 
 		'<li>Up Next: Giselle and Valentina at 12:40pm</li>';
 		newColor.style.background = colors[15];
-	} else if (day == 'Wendesday' && h == 12 && m >= 39 || day == 'Wednesday' && h == 13 && m < 10){
+	} else if (day == 'Wednesday' && h == 12 && m >= 39 || day == 'Wednesday' && h == 13 && m < 10){
 		document.querySelector('#schedule').innerHTML = '<li>12:40pm: Giselle and Valentina time to go!</li>' + '<br>' + 
 		'<li>Up Next: <b>Jessica, Rual,</b> Giselle and Valentina at 1:10pm</li>';
 		newColor.style.background = colors[16];
-	} else if (day == 'Wendesday' && h == 13 && m >= 10 || day == 'Wednesday' && h == 13 && m < 39){
+	} else if (day == 'Wednesday' && h == 13 && m >= 10 || day == 'Wednesday' && h == 13 && m < 39){
 		document.querySelector('#schedule').innerHTML = '<li>1:10pm: Giselle, <b>Jessica</b>, Valentina, and <b>Raul</b> time to go!</li>' + '<br>' + 
 		'<li>Up Next: <b>Jessica, Rual,</b> Giselle and Valentina at 1:10pm</li>';
 		newColor.style.background = colors[16];
-	} else if (day == 'Wendesday' && h == 13 && m >= 39 && m < 59){
+	} else if (day == 'Wednesday' && h == 13 && m >= 39 && m < 59){
 		document.querySelector('#schedule').innerHTML = '<li>1:40pm: Valentina should already be there.</li>';
 		newColor.style.background = colors[17];
 		
 	//Thursday
-	} else if (day == 'Thursday' && h == 08 && m < 54){
+	} else if (day == 'Thursday' && h == 08 && m < 50){
 		document.querySelector('#schedule').innerHTML = 'Giselle, Jessica, and Valentina go at 8:55am';
 		newColor.style.background = colors[18];
-	} else if (day == 'Thursday' && h == 08 && m >= 54 || day == 'Thursday' && h == 09 && m < 24){
+	} else if (day == 'Thursday' && h == 08 && m >= 50 || day == 'Thursday' && h == 09 && m < 24){
 		document.querySelector('#schedule').innerHTML = '<li>8:55am: Giselle, Jessica, and Valentina time to go!</li>' + '<br>' + 
 		'<li>Up Next: Giselle and Jessica 9:25am</li>';
 		newColor.style.background = colors[19];
@@ -153,10 +153,10 @@ function startTime(){
 		newColor.style.background = colors[3];
 	
 	//Friday
-	} else if (day == 'Friday' && h == 08 && m < 54){
+	} else if (day == 'Friday' && h == 08 && m < 50){
 		document.querySelector('#schedule').innerHTML = 'Giselle, Jessica, and Valentina go at 8:55am';
 		newColor.style.background = colors[9];
-	}else if (day == 'Friday' && h == 08 && m >= 54 || day == 'Friday' &&  h == 09 && m < 24){
+	}else if (day == 'Friday' && h == 08 && m >= 50 || day == 'Friday' &&  h == 09 && m < 24){
 		document.querySelector('#schedule').innerHTML = '<li>8:55am: Giselle, Jessica, and Valentina time to go!</li>' + '<br>' + 
 		'<li>Up Next: Giselle and Jessica 9:25am</li>';
 		newColor.style.background = colors[2];
@@ -179,10 +179,13 @@ function startTime(){
 	} else if (day == 'Friday' && h == 13 && m >= 39 && m < 59){
 		document.querySelector('#schedule').innerHTML = '<li>1:40pm: Valentina should already be there.</li>';
 		newColor.style.background = colors[16];
-	} else {
+	} /*else if( day == 'Wednesday' && h == 11 && m >= 58 || day == 'Wednesday' && h == 12 && m < 05){
+		document.querySelector('#schedule').innerHTML = 'working';
+	}*/
+	else {
 		document.querySelector('#schedule').innerHTML = 'No one needs to go at this time.';
 		newColor.style.background = colors[5];
-	}
+	} 
 }
 
 function checkTime(i){
@@ -203,7 +206,7 @@ function alertSound(){
 
 	var audio = document.querySelector('#notification');
 	//Monday
-	if (day == 'Monday' && h == 08 && m == 54 && s == 00){
+	if (day == 'Monday' && h == 08 && m == 50 && s == 00){
 		audio.play();
 		//alert('Giselle and Valentina <br> Please click OK to continue.');
 	} else if (day == 'Monday' && h == 09 && m == 24 && s == 00){
@@ -220,7 +223,7 @@ function alertSound(){
 		//alert('Giselle and Jessica <br> Please click OK to continue.');
 
 	//Tuesday
-	} else if (day == 'Tuesday' && h == 08 && m == 54 && s == 00){
+	} else if (day == 'Tuesday' && h == 08 && m == 50 && s == 00){
 		audio.play();
 		//alert('Giselle, Jessica, Valentina, and Raul <br> Please click OK to continue.');
 	} else if (day == 'Tuesday' && h == 09 && m == 24 && s == 00){
@@ -240,7 +243,7 @@ function alertSound(){
 		//alert('Giselle, Jessica, and Valentina <br> Please click OK to continue.');
 
 	//Wednesday
-	} else if (day == 'Wednesday' && h == 08 && m == 54 && s == 00){
+	} else if (day == 'Wednesday' && h == 08 && m == 50 && s == 00){
 		audio.play();
 		//alert('Giselle, Jessica, and Valentina <br> Please click OK to continue.');
 	} else if (day == 'Wednesday' && h == 09 && m == 24 && s == 00){
@@ -263,7 +266,7 @@ function alertSound(){
 		//alert('Valentina <br> Please click OK to continue.');
 
 	//Thursday
-	} else if (day == 'Thursday' && h == 08 && m == 54 && s == 00){
+	} else if (day == 'Thursday' && h == 08 && m == 50 && s == 00){
 		audio.play();
 		//alert('Giselle, Jessica, and Valentina <br> Please click OK to continue.');
 	} else if (day == 'Thursday' && h == 09 && m == 24 && s == 00){
@@ -286,7 +289,7 @@ function alertSound(){
 		//alert('Valentina <br> Please click OK to continue.');
 
 	//Friday
-	} else if (day == 'Friday' && h == 08 && m == 54 && s == 00){
+	} else if (day == 'Friday' && h == 08 && m == 50 && s == 00){
 		audio.play();
 		//alert('Giselle, Jessica, and Valentina <br> Please click OK to continue.');
 	} else if (day == 'Friday' && h == 09 && m == 24 && s == 00){
@@ -326,6 +329,7 @@ function calendar(){
 }
 
 window.onload = startTime(), calendar(), alertSound();
+
 
 
 
